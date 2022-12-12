@@ -123,8 +123,9 @@ footer{
 }
 
 .sub{
-  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-              radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #FDB931 100%) !important;
+  border-radius: 100%;
+  border: 0px solid black;
+  background: grey !important;
   margin-left: 60%;
 }
 
@@ -134,9 +135,11 @@ footer{
 }
 
 .add{
-  background: radial-gradient(ellipse farthest-corner at right bottom, #E5E4E2 0%, #dedbd6 8%, #54524d 30%, #665f50 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #bebeb6 8%, #494843 25%, #e3e0db 62.5%, #848078 100%) !important;
+  border-radius: 100%;
+  border: 0px solid black;
+  background: goldenrod !important;
 }
+
 .remove {
   margin-left: 60%;
 
