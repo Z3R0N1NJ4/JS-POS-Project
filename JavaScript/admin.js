@@ -34,8 +34,6 @@ let generateAdminItems = () => {
               <div class="buttons">
               <i onclick="increment(${id})" ><button class="add">></button></i>
           </div>
-
-          <h3 class="bottom-price">R ${item * search.price}</h3>
         </div>
       </div>
       `;
